@@ -24,7 +24,7 @@ before_install:
 - chmod +x ./kubectl
 - sudo mv ./kubectl /usr/local/bin/kubectl
 # Verify cluster context
-- kubectl config current-context
+# - kubectl config current-context
 # Install Helm
 - curl -LO https://git.io/get_helm.sh
 - chmod 700 get_helm.sh
